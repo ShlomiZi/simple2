@@ -13,7 +13,7 @@ class TestFactorial(unittest.TestCase):
         Any method which starts with ``test_`` will considered as a test case.
         """
         res = fact(5)
-        self.assertEqual(res, 121)
+        self.assertEqual(res, 120)
 
     def test_error(self):
         """
